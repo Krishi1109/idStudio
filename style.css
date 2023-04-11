@@ -1,0 +1,1248 @@
+body {
+    margin: 0;
+}
+
+.container {
+    padding: 00 135px;
+    margin: 00 auto;
+}
+
+/*  - - - Header - - - */
+.rightHeaderLogo {
+    display: none;
+}
+
+.header {
+    margin-top: 38.97px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 538px;
+    z-index: 1;
+    position: absolute;
+}
+
+.leftHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 68px;
+}
+
+.rightHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* padding: 0px; */
+    gap: 45px;
+}
+
+.dropDown {
+    background-color: transparent;
+}
+
+/* - - - Hero - - -  */
+.Hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.firstHero {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 54px;
+}
+
+.H1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 32px; */
+}
+
+.H1 h1 {
+    font-family: 'BN Chester Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66px;
+    line-height: 64px;
+    letter-spacing: 0.01em;
+}
+
+.H1 span {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+}
+
+.firstHero button {
+    /* margin-top: 50px; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 34px;
+
+    border: 2px solid #D3A265;
+    border-radius: 8px;
+}
+
+.secondHero {
+    /* width: 100%; */
+    display: flex;
+    /* flex-direction: row; */
+    align-items: flex-start;
+}
+
+/* About Studio */
+.aboutStudio {
+    background-color: #F4F4F4;
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+
+.aboutStudioInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 382px;
+}
+
+.aboutLeftInfo {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+
+.aboutRightInfo {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+}
+
+/* Services */
+
+.ourServices {
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+    align-items: center;
+    padding-top: 146px;
+    padding-bottom: 146px;
+}
+
+.mainHeading span {
+    color: #D3A265;
+}
+
+.services {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto auto;
+}
+
+.singleService {
+    /* margin: 15px;    */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 42px;
+}
+
+.serviceText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 19px;
+}
+
+.serviceHeading {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.serviceInformation {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    text-align: center;
+}
+
+.ourPortfolio {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 85px;
+    padding-top: 78px;
+    padding-bottom: 78px;
+}
+
+.portfolioContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 28px;
+}
+
+.portfolioInformation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 533px;
+}
+
+.portfolioTabs {
+    display: flex;
+    align-items: flex-start;
+    gap: 59px;
+}
+
+.orange {
+    color: #D3A265;
+}
+
+.portfolioInformation button {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+.portfolioGallery {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto auto;
+}
+
+/* -- Our Pricing --  */
+.ourPricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding-top: 102px;
+    padding-bottom: 102px;
+}
+
+.pricingCards {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 100px;
+    padding-right: 100px;
+    gap: 82px;
+}
+
+.light {
+    background: #FDFBF8;
+    border: 2px solid #D3A265;
+    border-radius: 10px;
+
+}
+
+.dark {
+    background: #D3A265;
+    border: 2px solid #FDFBF8;
+    color: #F4F4F4;
+    border-radius: 10px;
+}
+
+.singlePricingCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+    padding: 32px 38px;
+}
+
+.basicInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 31px;
+}
+
+.cardHeading {
+    font-family: 'BN Chester Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: center;
+}
+
+.cardInformation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+}
+
+.priceInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.price {
+    font-family: 'BN Chester Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.cardDesc {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 180%;
+    text-align: center;
+}
+
+/* DO you have any questons?????????????? */
+.questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 337px;
+    padding-top: 73px;
+    padding-bottom: 73px;
+}
+
+.anyQuestion {
+    font-family: 'BN Chester Pro';
+    font-style: normal;
+}
+
+.anyQuestion h1 {
+    margin: 5px;
+}
+
+.questionButton button {
+    padding: 12px 34px;
+    border: 2px solid #D3A265;
+    border-radius: 8px;
+}
+
+/* - - - What People Say - - - */
+.people {
+    background-color: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+    padding-top: 59.56px;
+    padding-bottom: 59.56px;
+}
+
+.peopleContent{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    justify-content: center;
+    align-items: center;
+}
+
+.peopleCard{
+    display: flex;
+    gap: 30px;
+}
+
+.singleCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    padding: 36px 70px 36px 100px;
+}
+
+.cardItem1{
+    display: flex;
+    gap: 50px;
+}
+
+.profileDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 30px;
+}
+
+.profileName h5  {
+    margin: 5px 0;
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+}
+
+.footer {
+    background-color: #F4F4F4;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    display: flex;
+    /* gap: 100px; */
+    justify-content: space-between;
+}
+
+.footerDesc img {
+    position: absolute;
+}
+
+.footerDesc p{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 170%;
+}
+
+.footerDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footerNavigation p {
+    margin: 8px 0;
+}
+.footerNavigation{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1px; */
+}
+
+.footericons{
+    display: flex;
+    margin-top: 20px;
+    gap : 8px;
+}
+
+.footerContacts{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.removen{
+display: none;
+}
+/* ----------------------------- Max Width 1440 AND Min Width 1024 --------------------------- */
+@media (min-width: 1024px) and (max-width : 1440px) {
+    .container {
+        padding: 00 115px;
+        margin: 00 auto;
+    }
+
+    .rightHeaderLogo {
+        display: none;
+    }
+
+    .header {
+        margin-top: 38.97px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 280px;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .leftHeader {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        /* padding: 0px; */
+        gap: 38px;
+    }
+
+    .Hero {
+        gap: 10px;
+    }
+
+    .rightHeader {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        /* padding: 0px; */
+        gap: 35px;
+    }
+
+    .firstHero {
+        /* width: 50%; */
+        gap: 44px;
+    }
+
+    .H1 h1 {
+        font-size: 55px;
+        line-height: 58px;
+    }
+
+    .H1 span {
+        font-size: 14.5px;
+        line-height: 165%;
+    }
+
+    .secondHero {
+        /* width: 100%; */
+        height: auto;
+        display: flex;
+        /* flex-direction: row; */
+        align-items: flex-start;
+        padding: 0px;
+    }
+
+    .secondHero img {
+        width: 480px;
+    }
+
+    /* About  */
+    .aboutStudioInfo {
+        gap: 150px;
+    }
+
+    .ourServices {
+        padding-top: 106px;
+        padding-bottom: 106px;
+    }
+
+    /* Portfolio  */
+    .ourPortfolio {
+        gap: 70px;
+        padding-top: 78px;
+        padding-bottom: 78px;
+    }
+
+    .portfolioInformation {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 300px;
+    }
+
+    .portfolioTabs {
+        display: flex;
+        align-items: flex-start;
+        gap: 49px;
+    }
+
+    .portfolioGallery {
+        justify-content: center;
+        grid-template-columns: auto auto auto;
+    }
+
+    .remove {
+        display: none;
+    }
+
+    .ourPricing {
+        gap: 60px;
+        padding-top: 82px;
+        padding-bottom: 82px;
+    }
+
+    .pricingCards {
+        display: flex;
+        /* align-items: flex-start; */
+        padding-left: 50px;
+        padding-right: 50px;
+        gap: 60px;
+    }
+
+    .questions {
+        gap: 300px;
+        padding-top: 73px;
+        padding-bottom: 73px;
+    }
+
+    .singleCard{
+        padding: 36px 40px 36px 60px;
+    }
+
+    .people {
+        gap: 77px;
+        padding-top: 59.56px;
+        padding-bottom: 59.56px;
+    }
+
+    @media (min-width: 1224px) and (max-width : 1440px) {
+        .secondHero img {
+            width: 580px;
+        }
+    }
+
+    .aboutStudio {
+        /* width : 100%; */
+        background-color: #F4F4F4;
+        padding-top: 71px;
+        padding-bottom: 71px;
+    }
+
+    .aboutStudioInfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        /* gap: 382px; */
+    }
+
+
+}
+
+/* ---------------------------------Max Width: 1024 AND Min-Width: 780 -----------------------------------*/
+
+@media (min-width: 840px) and (max-width : 1024px) {
+    .container {
+        padding: 00 80px;
+        margin: 00 auto;
+    }
+
+    .rightHeaderLogo {
+        display: none;
+    }
+
+    .header {
+        margin-top: 38.97px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 520px;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .leftHeader {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        /* padding: 0px; */
+        gap: 32px;
+    }
+
+    .leftHeader a {
+        display: none
+    }
+
+    .rightHeaderLogo {
+        display: block;
+    }
+
+    .rightHeader {
+        display: none;
+    }
+
+    .firstHero {
+        gap: 40px;
+    }
+
+    .H1 h1 {
+        font-size: 42px;
+        line-height: 54px;
+    }
+
+    .H1 span {
+        font-size: 14px;
+        line-height: 165%;
+    }
+
+    .secondHero {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .secondHero img {
+        width: 450px;
+    }
+
+    .aboutStudio {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .aboutStudioInfo {
+        gap: 200px;
+    }
+
+    .ourServices {
+        gap: 70px;
+        align-items: center;
+        padding-top: 116px;
+        padding-bottom: 116px;
+    }
+
+    .services {
+        grid-template-columns: auto auto;
+    }
+
+    .singleService {
+        padding: 0 50px;
+    }
+
+    .ourPortfolio {
+        gap: 55px;
+        padding-top: 60px;
+        padding-bottom: 68px;
+    }
+
+    .portfolioInformation {
+        justify-content: center;
+        align-items: center;
+        gap: 120px;
+    }
+
+    .portfolioGallery {
+        grid-template-columns: auto auto auto;
+    }
+
+    .portfolioTabs {
+        gap: 40px;
+    }
+
+    .remove {
+        display: none;
+    }
+
+    .pricingCards {
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 20px;
+    }
+
+    .ourPricing {
+        gap: 70px;
+        padding-top: 82px;
+        padding-bottom: 82px;
+    }
+
+    .questions {
+        gap: 210px;
+        padding-top: 73px;
+        padding-bottom: 73px;
+    }
+
+    .peopleCard{
+        padding-left: 70px;
+        padding-right: 70px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .people {
+        gap: 60px;
+        padding-top: 59.56px;
+        padding-bottom: 59.56px;
+    }
+
+    @media (min-width: 840px) and (max-width : 930px) {
+        .header {
+            gap: 425px
+        }
+
+        .secondHero img {
+            width: 400px;
+        }
+
+        .H1 h1 {
+            margin-top: 50px;
+            font-size: 35px;
+            line-height: 44px;
+        }
+
+        .aboutStudioInfo {
+            gap: 180px;
+        }
+    }
+
+
+
+}
+
+/* ---------------------------------Max Width: 750 AND Min-Width: 540 -----------------------------------*/
+@media (min-width: 660px) and (max-width : 840px) {
+    .container {
+        padding: 00 50px;
+        margin: 00 auto;
+    }
+
+    .header {
+        margin-top: 30px;
+        gap: 350px;
+        position: absolute;
+    }
+
+    .Hero {
+        display: flex;
+    }
+
+    .leftHeader a {
+        display: none
+    }
+
+    .rightHeaderLogo {
+        display: block;
+    }
+
+    .rightHeader {
+        display: none;
+    }
+
+    .firstHero {
+        gap: 25px;
+    }
+
+    .H1 h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .H1 span {
+        font-size: 12px;
+        line-height: 165%;
+    }
+
+    .secondHero img {
+        width: 380px;
+    }
+
+    .aboutStudio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .aboutLeftInfo {
+        padding-left: 30px;
+    }
+
+    .aboutStudioInfo {
+        gap: 100px;
+    }
+
+    .aboutRightInfo {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .ourServices {
+        gap: 70px;
+        align-items: center;
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+
+    .services {
+        grid-gap: 40px;
+        grid-template-columns: auto auto;
+    }
+
+    .singleService {
+        padding: 0 50px;
+    }
+
+    .remove660 {
+        display: none;
+    }
+
+    .ourPortfolio {
+        gap: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .portfolioInformation {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolioGallery {
+        grid-template-columns: auto auto;
+    }
+
+    .portfolioTabs {
+        gap: 40px;
+    }
+
+    .ourPricing {
+        gap: 60px;
+        padding-top: 82px;
+        padding-bottom: 82px;
+    }
+
+    .pricingCards {
+        display: flex;
+        /* align-items: flex-start; */
+        padding: 0;
+        gap: 20px;
+    }
+
+    .singlePricingCard {
+        padding: 28px 20px;
+    }
+
+    .questions {
+        gap: 100px;
+        padding-top: 73px;
+        padding-bottom: 73px;
+    }
+
+    .peopleCard{
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .people {
+        gap: 60px;
+        padding-top: 59.56px;
+        padding-bottom: 59.56px;
+    }
+
+    .footer2{
+        background-color: #F4F4F4;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerItem1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    @media (min-width: 660px) and (max-width : 720px) {
+
+        .H1 h1 {
+            font-size: 25px;
+            line-height: 40px;
+        }
+
+        .secondHero img {
+            width: 340px;
+        }
+    }
+
+}
+
+
+/* ---------------------------------Max Width: 450 -----------------------------------*/
+@media (min-width : 320px) and (max-width : 660px) {
+    .container {
+        padding: 00 27px;
+        margin: 00 auto;
+    }
+
+    .header {
+        margin-top: 30px;
+        gap: 183px;
+    }
+
+    .leftHeader a {
+        display: none
+    }
+
+    .rightHeaderLogo {
+        display: block;
+    }
+
+    .rightHeader {
+        display: none;
+    }
+
+    .Hero {
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .H1 {
+        gap: 41px;
+    }
+
+    .H1 h1 {
+        font-size: 48px;
+        line-height: 49px;
+    }
+
+    .secondHero img {
+        width: 414px;
+        height: 260px;
+    }
+
+    .aboutStudioInfo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 382px;
+    }
+
+    .aboutStudio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .aboutLeftInfo {
+        padding-left: 30px;
+    }
+
+    .aboutStudioInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 50px;
+    }
+
+    .aboutRightInfo {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+    .ourServices {
+        gap: 70px;
+        align-items: center;
+        padding-top: 76px;
+        padding-bottom: 76px;
+    }
+
+    .services {
+        grid-gap: 40px;
+        grid-template-columns: auto;
+    }
+
+    .remove440 {
+        display: none;
+    }
+
+    .ourPortfolio {
+        gap: 30px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .portfolioInformation {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolioGallery {
+        grid-template-columns: auto;
+    }
+
+    .portfolioGallery img {
+        width: 414px;
+        height: 270px;
+    }
+
+    .portfolioTabs {
+        gap: 20px;
+    }
+
+    .ourPricing {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .pricingCards {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 10px;
+        padding-right: 10px;
+        gap: 40px;
+    }
+
+    .priceInfo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .questions {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        padding-top: 73px;
+        padding-bottom: 73px;
+    }
+
+    .questionButton button {
+        width: 100%;
+        border: 2px solid #D3A265;
+        border-radius: 8px;
+    }
+
+    .peopleCard{
+        padding-left: 0;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .people {
+        gap: 60px;
+        padding-top: 59.56px;
+        padding-bottom: 59.56px;
+    }
+
+    .cardItem1{
+        display: flex;
+        gap: 20px;
+    }
+
+    .singleCard{
+        padding: 36px 10px 36px 10px;
+    }
+
+    .heading { 
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+        /* justify-content: space-between; */
+    }
+
+    .footer2{
+        background-color: #F4F4F4;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footerItem1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    @media (min-width : 514px) and (max-width : 660px) {
+        .header {
+            gap: 270px;
+        }
+    }
+
+    @media (min-width : 340px) and (max-width : 410px) {
+        .header {
+            gap: 100px;
+        }
+
+        .secondHero img {
+            width: 350px;
+            height: 260px;
+        }
+
+        .portfolioGallery img {
+            width: 350px;
+            height: 270px;
+        }
+
+        .portfolioTabs {
+            gap: 15px;
+            font-size: small;
+        }
+    }
+}
+
+/* 
+@media (max-width : 415px){
+    .container {
+        padding: 00 27px;
+        margin: 00 auto;
+    }
+
+    .header {
+        margin-top: 30px;
+        gap: 183px;
+    }
+
+    .leftHeader a {
+        display: none
+    }
+
+    .rightHeaderLogo {
+        display: block;
+    }
+
+    .rightHeader {
+        display: none;
+    }
+    .Hero {
+        padding-top: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .H1 {
+        gap: 41px;
+    }
+
+    .H1 h1 {
+        font-size: 48px;
+        line-height: 49px;
+    }
+
+    .secondHero img {
+        width: 414px;
+        height: 260px;
+    }
+
+    .aboutStudio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .aboutLeftInfo {
+        padding-left: 30px;
+    }
+
+    .aboutStudioInfo {
+        gap: 10px;
+    }
+
+    .aboutRightInfo {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+} */
