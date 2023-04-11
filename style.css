@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+hr {
+    width: 100%;
+}
+
 .container {
     padding: 00 135px;
     margin: 00 auto;
@@ -188,9 +192,9 @@ body {
     background-color: #F4F4F4;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    gap: 85px;
+    gap: 80px;
     padding-top: 78px;
     padding-bottom: 78px;
 }
@@ -198,16 +202,16 @@ body {
 .portfolioContent {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     padding: 0px;
     gap: 28px;
 }
 
 .portfolioInformation {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
-    gap: 533px;
+    /* gap: 533px; */
 }
 
 .portfolioTabs {
@@ -278,6 +282,13 @@ body {
     padding: 32px 38px;
 }
 
+.singlePricingCard button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 34px;
+}
+
 .basicInfo {
     display: flex;
     flex-direction: column;
@@ -301,6 +312,7 @@ body {
     align-items: center;
     gap: 27px;
 }
+
 
 .priceInfo {
     display: flex;
@@ -364,7 +376,7 @@ body {
     padding-bottom: 59.56px;
 }
 
-.peopleContent{
+.peopleContent {
     display: flex;
     flex-direction: column;
     gap: 42px;
@@ -372,27 +384,54 @@ body {
     align-items: center;
 }
 
-.peopleCard{
+.peopleCard {
     display: flex;
     gap: 30px;
 }
 
-.singleCard{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.singleCard {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
     align-items: center;
     gap: 30px;
     background-color: white;
-    padding: 36px 70px 36px 100px;
+    /* padding: 36px 43px 0 91px; */
 }
 
-.cardItem1{
+.cardItem1 {
+    position: absolute;
     display: flex;
     gap: 50px;
 }
 
-.profileDesc{
+.cardItem1>img {
+    padding-left: 91px;
+    padding-top: 36px;
+}
+
+.cardItem2 {
+    padding-top: 105px;
+    display: flex;
+    flex-direction: column;
+    gap: 107px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+}
+
+.cardItem2 hr {
+    color: #D3A265;
+}
+
+.content {
+    padding: 0 70px 36px 100px;
+}
+
+
+.profileDesc {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -400,11 +439,11 @@ body {
     gap: 30px;
 }
 
-.profileName h5  {
+.profileName h5 {
     margin: 5px 0;
 }
 
-.icons{
+.icons {
     display: flex;
     gap: 15px;
 }
@@ -422,15 +461,15 @@ body {
     position: absolute;
 }
 
-.footerDesc p{
+.footerDesc p {
     font-family: 'Gilroy';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 170%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
 }
 
-.footerDesc{
+.footerDesc {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -440,29 +479,31 @@ line-height: 170%;
 .footerNavigation p {
     margin: 8px 0;
 }
-.footerNavigation{
+
+.footerNavigation {
     display: flex;
     flex-direction: column;
     /* gap: 1px; */
 }
 
-.footericons{
+.footericons {
     display: flex;
     margin-top: 20px;
-    gap : 8px;
+    gap: 8px;
 }
 
-.footerContacts{
+.footerContacts {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.removen{
-display: none;
+.removen {
+    display: none;
 }
+
 /* ----------------------------- Max Width 1440 AND Min Width 1024 --------------------------- */
-@media (min-width: 1024px) and (max-width : 1440px) {
+@media (min-width: 1024px) and (max-width : 1439px) {
     .container {
         padding: 00 115px;
         margin: 00 auto;
@@ -477,7 +518,7 @@ display: none;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        gap: 280px;
+        gap: 350px;
         z-index: 1;
         position: absolute;
     }
@@ -589,9 +630,9 @@ display: none;
         padding-bottom: 73px;
     }
 
-    .singleCard{
+    /* .singleCard {
         padding: 36px 40px 36px 60px;
-    }
+    } */
 
     .people {
         gap: 77px;
@@ -599,6 +640,26 @@ display: none;
         padding-bottom: 59.56px;
     }
 
+    .cardItem1>img {
+        padding-left: 40px;
+        padding-top: 36px;
+    }
+
+    .content {
+        padding: 0 70px 36px 50px;
+    }
+
+    @media (min-width: 1024px) and (max-width : 1180px){
+        .cardItem1 {
+            position: absolute;
+            display: flex;
+            gap: 20px;
+        }
+        .cardItem1>img {
+            padding-left: 20px;
+            padding-top: 36px;
+        }
+    }
     @media (min-width: 1224px) and (max-width : 1440px) {
         .secondHero img {
             width: 580px;
@@ -754,7 +815,7 @@ display: none;
         padding-bottom: 73px;
     }
 
-    .peopleCard{
+    .peopleCard {
         padding-left: 70px;
         padding-right: 70px;
         display: flex;
@@ -919,7 +980,7 @@ display: none;
         padding-bottom: 73px;
     }
 
-    .peopleCard{
+    .peopleCard {
         padding-left: 30px;
         padding-right: 30px;
         display: flex;
@@ -933,13 +994,13 @@ display: none;
         padding-bottom: 59.56px;
     }
 
-    .footer2{
+    .footer2 {
         background-color: #F4F4F4;
         display: flex;
         flex-direction: column;
     }
 
-    .footerItem1{
+    .footerItem1 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1111,7 +1172,7 @@ display: none;
         border-radius: 8px;
     }
 
-    .peopleCard{
+    .peopleCard {
         padding-left: 0;
         padding-right: 0;
         display: flex;
@@ -1125,16 +1186,25 @@ display: none;
         padding-bottom: 59.56px;
     }
 
-    .cardItem1{
+    .cardItem1 {
         display: flex;
         gap: 20px;
     }
 
-    .singleCard{
-        padding: 36px 10px 36px 10px;
+    .singleCard {
+        padding: 36px 0 36px 0;
+    }
+    .cardItem1 {
+        position: absolute;
+        display: flex;
+        gap: 10px;
+    }
+    .cardItem1>img {
+        padding-left: 5px;
+        padding-top: 36px;
     }
 
-    .heading { 
+    .heading {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1142,13 +1212,13 @@ display: none;
         /* justify-content: space-between; */
     }
 
-    .footer2{
+    .footer2 {
         background-color: #F4F4F4;
         display: flex;
         flex-direction: column;
     }
 
-    .footerItem1{
+    .footerItem1 {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1180,6 +1250,9 @@ display: none;
         .portfolioTabs {
             gap: 15px;
             font-size: small;
+        }
+        .content {
+            padding: 0 10px 36px 10px;
         }
     }
 }
